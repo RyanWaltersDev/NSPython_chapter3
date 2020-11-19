@@ -85,5 +85,4 @@ del guest_list[0]
 del guest_list[0]
 print(guest_list)
 
-#END
-/n
+#END OF PROGRAM
