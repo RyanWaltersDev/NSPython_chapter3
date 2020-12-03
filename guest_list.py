@@ -12,12 +12,15 @@ invitation2 = f"Greetings, {guest_list[1].title()}. I would like to cordially in
 invitation3 = f"Greetings, {guest_list[2].title()}. I would like to cordially invite you to a specially prepared dinner at my apartment. Please let me know if you can make it. It would be great to see you again. Sincerely, {my_name.title()}"
 #Lewis
 invitation4 = f"Greetings, {guest_list[3].title()}. I would like to cordially invite you to a specially prepared dinner at my apartment. Please let me know if you can make it. It would be great to see you again. Sincerely, {my_name.title()}"
+#Length
+length = f"So far, I have invited {len(guest_list)} friends to dinner."
 
 #Printing initial invitations
 print(invitation1)
 print(invitation2)
 print(invitation3)
 print(invitation4)
+print(length)
 
 #Modifying
 print(f"Oh dear, it seems that our friend {guest_list[2].title()} cannot attend the event this evening. We will have to invite someone else.")
@@ -53,6 +56,10 @@ print(invitation6)
 invitation7 = f"Greetings, {guest_list[6].title()}. I would like to cordially invite you to a specially prepared dinner at my apartment. Please let me know if you can make it. It would be great to see you again. Sincerely, {my_name.title()}"
 print(invitation7)
 
+#Length
+length = f"So far, I have invited {len(guest_list)} friends to dinner."
+print(length)
+
 #Shrinking guest list
 print(f"Unfortunately, it so happens that I can only invite two guests. I am a terrible planner, I know.")
 
@@ -79,6 +86,10 @@ final_invitation1 = f"Dear {guest_list[0].title()}, I had to make some changes t
 final_invitation2 = f"Dear {guest_list[1].title()}, I had to make some changes to the guest list tonight, but wanted to let you know that you are still invited! See you tonight."
 print(final_invitation1)
 print(final_invitation2)
+
+#Final Length
+length = f"Due to unforseen circumstances, I have ended up only inviting {len(guest_list)} friends to dinner."
+print(length)
 
 #Final Deletions to empty list
 del guest_list[0]
