@@ -41,7 +41,6 @@ sorted_bands = sorted(favorite_bands)
 print("\nIn alphabetical order, my current working list of favorite bands is:", ", ".join(sorted_bands[0:-1])+", " f"and {sorted_bands[-1]}")
 sorted_reverse = sorted(favorite_bands, reverse=True)
 print("\nIn reverse alphabetical order, my current working list of favorite bands is:", ", ".join(sorted_reverse[0:-1])+", " f"and {sorted_reverse[-1]}")
-#NOTE: Because of the impermanent sorting method, I have to use the [0] index instead of [-1]
 print("\nHowever, because I used the sorted() method, I can still print the list in its original form like so:", ", ".join(favorite_bands[0:-1])+", " f"and {favorite_bands[-1]}.")
 
 #Sorting the list alphabetically (permanent)
