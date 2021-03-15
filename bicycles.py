@@ -10,5 +10,6 @@ print(bicycles[3].title())
 print(bicycles[-1].title())
 
 #Testing inserting list items into strings
-message = f"My first bicycle ever was a {bicycles[0].title()}, but my favorite is the {bicycles[-2].title()}."
+message = (f"My first bicycle ever was a {bicycles[0].title()}, but my "
+    f"favorite is the {bicycles[-2].title()}.")
 print(message)

@@ -6,12 +6,14 @@ print("The initial list:")
 print(cars)
 
 #Sort alphabetically
-print("\nThe list sorted in alphabetical order (original list cannot be called):")
+print("\nThe list sorted in alphabetical order "
+    "(original list cannot be called):")
 cars.sort()
 print(cars)
 
 #Sorting reverse alphabetically
-print("\nThe list sorted in reverse alphabetical order (original list cannot be called):")
+print("\nThe list sorted in reverse alphabetical order "
+    "(original list cannot be called):")
 cars.sort(reverse=True)
 print(cars)
 
@@ -20,7 +22,8 @@ cars = ['mazda', 'lincoln', 'lexus', 'volvo', 'toyota']
 print("\nThe original list (reset):")
 print(cars)
 
-print("\nThe newly sorted list (use sorted() so the original list can be called):")
+print("\nThe newly sorted list (use sorted() so the "
+    "original list can be called):")
 print(sorted(cars))
 
 print("\nThe original list again:")
